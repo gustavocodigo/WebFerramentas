@@ -1,0 +1,83 @@
+.main-card {
+  margin: auto;
+  background-color: white;
+  width: 100%;
+
+  color: black;
+
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #7532FA;
+  padding: 25px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.headertitle {
+  font-size: 1.2em;
+  margin-left: 30px;
+}
+
+.title {
+  padding-top: 10px;
+  color: black;
+}
+
+html {
+   min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  padding: 25px;
+  
+  
+}
+
+.card-tools {
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+/*   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8); */
+  transform: scale(0.98);
+  transition: 0.9s;
+  
+  width: 100%;
+  max-width: 300px;
+  flex-wrap: wrap;
+}
+
+.card-tools:hover {
+  transition: 0.9s;
+  transform: scale(1);
+}
+
+.banner {
+  background: rgb(142,180,58);
+background: linear-gradient(243deg, rgba(142,180,58,1) 0%, rgba(224,47,121,1) 0%, rgba(140,70,133,1) 100%, rgba(40,253,29,1) 100%, rgba(163,0,255,1) 100%, rgba(252,176,69,1) 100%);
+}
+
+
+
+.banner-logo {
+  height: 100%;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  background-image: url(https://cdn.glitch.global/54d47800-453c-4da2-b11a-521bf1981d50/e6ea1ca3-8fa5-4304-bcf9-6f0ca7bd9110.image.png?v=1681618115451)
+}
+
+footer{
+  bottom: 0;
+}
