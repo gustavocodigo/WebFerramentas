@@ -20,12 +20,14 @@
 
 .headertitle {
   font-size: 1.2em;
-  margin-left: 30px;
+  margin-left: 20px;
+  text-transform: uppercase;
 }
 
 .title {
   padding-top: 10px;
-  color: black;
+  color: white;
+  text-transform: uppercase;
 }
 
 html {
@@ -80,4 +82,9 @@ background: linear-gradient(243deg, rgba(142,180,58,1) 0%, rgba(224,47,121,1) 0%
 
 footer{
   bottom: 0;
+}
+
+
+.best-tools-text {
+  font-size: 1.4em;
 }
